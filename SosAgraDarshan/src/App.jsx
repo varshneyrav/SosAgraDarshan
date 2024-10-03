@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+// import MiddleSection from './components/MiddleSection'
 
 const App = () => {
   return (
     <div>
       <Navbar />
-          </div>
+      {/* <MiddleSection /> */}
+    </div>
   )
 }
 

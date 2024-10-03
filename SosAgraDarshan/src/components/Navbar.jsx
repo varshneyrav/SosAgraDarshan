@@ -26,8 +26,23 @@ const Navbar = () => {
                     <div className="line"></div>
                     <div className="line"></div>
                 </label>
+            <input type="checkbox" id="nav-toggle" />
+            <div className="logo1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4aVxtbWmGoi4u31ssr8hf14pJtgtqD4QyJw&usqp=CAU" alt="logo" height="95" width="112" />
+                AGRA<strong>दर्शन</strong></div>
+            <ul className="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="nearby.html">NEARBY ATTRACTION</a></li>
+                <li><a href="#work">SOS TAXI-SERVOCES</a></li>
+                <li><a href="#work">SOS BHOJNALAY</a></li>
+                <li><a href="sevicss.pdf">OTHER SERVICES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            <label htmlFor="nav-toggle" className="icon-burger">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+            </label>
         </nav>
     )
 }
-
 export default Navbar

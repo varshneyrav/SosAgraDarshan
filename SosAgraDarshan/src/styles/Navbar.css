@@ -10,7 +10,7 @@ nav {
     padding: 0 5%;
 }
 
-nav .logo {
+nav .logo1 {
     float: left;
     width: 40%;
     height: 100%;
@@ -19,7 +19,10 @@ nav .logo {
     font-size: 24px;
     color: #fff;
 }
-
+img{
+    height:6rem !important;
+    width:fit-content;
+}
 nav .links {
     float: right;
     padding: 0;
@@ -91,10 +94,10 @@ nav .icon-burger .line {
 }
 
 @media screen and (max-width: 850px) {
-    nav .logo {
+    nav .logo1 {
         float: none;
         width: auto;
-        justify-content: center;
+        justify-content: left;
     }
 
     nav .links {
