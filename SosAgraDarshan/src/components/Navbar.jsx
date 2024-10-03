@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav>
             <input type="checkbox" id="nav-toggle"/>
                 <div className="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4aVxtbWmGoi4u31ssr8hf14pJtgtqD4QyJw&usqp=CAU" alt="logo" height="95" width="112" />
-                    AGRA<strong>दर्शन</strong></div>
+                    AGRA<strong>दर्शन Nothing</strong></div>
                 <ul className="links">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="nearby.html">NEARBY ATTRACTION</a></li>
